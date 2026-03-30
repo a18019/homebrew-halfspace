@@ -16,8 +16,6 @@ class Halfspace < Formula
   service do
     run [opt_bin/"halfspace"]
     keep_alive true
-    log_path var/"log/halfspace.log"
-    error_log_path var/"log/halfspace.log"
   end
 
   test do
